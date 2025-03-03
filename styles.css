@@ -1,0 +1,52 @@
+    color: var(--neutral-dark);
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.tech-button {
+
+    background-color: var(--accent-color);
+
+    color: var(--neutral-dark);
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.tech-button:hover {
+
+    background-color: var(--primary-color);
+
+}
+
+.tech-header {
+
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+
+    padding: 40px;
+
+    color: #fff;
+
+    text-align: center;
+
+}
+.hover-effect {
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.hover-effect:hover {
+
+    transform: translateY(-3px);
+
+    background-color: var(--accent-color);
+
+}
