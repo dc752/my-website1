@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>全方位出行指南</title>
+
+  <style>
+
+    /* 重置默认样式 */
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+    }
+
+    body {
+
+      font-family: '微软雅黑', Arial, sans-serif;
+
+      background: linear-gradient(135deg, #66CC66, #660000);
+
+      color: #660033;
+
+      line-height: 1.6;
+
+      padding: 20px;
+
+    }
+
+    header {
+
+      text-align: center;
+
+      padding: 20px 0;
+
+      margin-bottom: 20px;
+
+      background: #003366;
+
+      color: #FFCC99;
+
+      border-radius: 6px;
+
+    }
+
+    header h1 {
+
+      font-size: 2rem;
+
+    }
+
+    nav {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: center;
+
+      margin-bottom: 20px;
+
+    }
+
+    nav a {
+
+      text-decoration: none;
+
+      color: #CCFF66;
+
+      padding: 10px 15px;
+
+      margin: 5px;
+
+      background: #003366;
+
+      border-radius: 4px;
+
+      transition: background 0.3s, color 0.3s;
+
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    }
+
+    nav a:hover {
+
+      background: #3366CC;
+
+      color: #009966;
+
+    }
+
+    .container {
+
+      max-width: 1100px;
+
+      margin: 0 auto;
+
+    }
+
+    .section {
+
+      background: 
+        
+#6666CC;
+      
+      margin: 10px 0;
+
+      padding: 20px;
+
+      border-radius: 6px;
+
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+    }
+
+    .section h2 {
+
+      font-size: 1.5rem;
+
+      margin-bottom: 15px;
+
+      color: #4a90e2;
+
+      border-bottom: 2px solid #FF6600;
+
+      display: inline-block;
+
+      padding-bottom: 5px;
+
+    }
+
+    .cards {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+      grid-gap: 20px;
+
+    }
+
+    .card {
+
+      background: #FF6600;
+
+      border-radius: 6px;
+
+      overflow: hidden;
+
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+      transition: transform 0.3s;
+
+    }
+
+    .card:hover {
+
+      transform: translateY(-5px);
+
+    }
+
+    .card-header {
+
+      background: #0099CC;
+
+      color: #fff;
+
+      padding: 15px;
+
+      font-size: 1.2rem;
+
+    }
+
+    .card-content {
+
+      padding: 15px;
+
+      font-size: 0.95rem;
+
+      line-height: 1.4;
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      padding: 20px 0;
+
+      margin-top: 30px;
+
+      background: #003366;
+
+      color: #CC3333;
+
+      border-radius: 6px;
+
+    }
+
+    @media (max-width: 600px) {
+
+      nav a {
+
+        flex: 1 1 100%;
+
+        text-align: center;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>全方位出行指南</h1>
+
+    <p>航空、铁路、公路、船运 - 一站式出行服务</p>
+
+  </header>
+
+  
+
+  <nav>
+
+    <a href="#air">航空</a>
+
+    <a href="#rail">铁路</a>
+
+    <a href="#road">公路</a>
+
+    <a href="#ship">船运</a>
+
+    <a href="#regulations">乘坐规定</a>
+
+    <a href="#notes">注意事项</a>
+
+    <a href="#tips">温馨提示</a>
+
+  </nav>
+
+  
+
+  <div class="container">
+
+    <!-- 航空部分 -->
+
+    <section id="air" class="section">
+
+      <h2>航空服务</h2>
+
+      <div class="cards">
+
+        <div class="card">
+
+          <div class="card-header">国内航班</div>
+
+          <div class="card-content">
+
+            <p>提供准时、安全、舒适的国内航班服务。提前在线值机、选座、机票改签等服务一应俱全。</p>
+
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <div class="card-header">国际航班</div>
+
+          <div class="card-content">
+
+            <p>覆盖全球主要城市，支持多种语言，提供高效的登机、海关及转机服务。</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    
+
+    <!-- 铁路部分 -->
+
+    <section id="rail" class="section">
+
+      <h2>铁路出行</h2>
+
+      <div class="cards">
+
+        <div class="card">
+
+          <div class="card-header">高铁</div>
+
+          <div class="card-content">
+
+            <p>体验新一代高速列车，安全、快捷、高效，适合商务出行及短途旅行。</p>
+
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <div class="card-header">普速列车</div>
+
+          <div class="card-content">
+
+            <p>经济实惠，覆盖面广，适合长途旅行及休闲出行。</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    
+
+    <!-- 公路部分 -->
+
+    <section id="road" class="section">
+
+      <h2>公路交通</h2>
+
+      <div class="cards">
+
+        <div class="card">
+
+          <div class="card-header">长途客运</div>
+
+          <div class="card-content">
+
+            <p>覆盖全国主要城市及景区，舒适座椅、免费Wi-Fi及贴心客务服务。</p>
+
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <div class="card-header">城市公交</div>
+
+          <div class="card-content">
+
+            <p>环保便捷、网络覆盖全市，实时公交信息查询、智能调度辅助出行。</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    
+
+    <!-- 船运部分 -->
+
+    <section id="ship" class="section">
+
+      <h2>船运服务</h2>
+
+      <div class="cards">
+
+        <div class="card">
+
+          <div class="card-header">渡轮服务</div>
+
+          <div class="card-content">
+
+            <p>为城市间短途以及旅游景点的渡船服务提供便捷、舒适的出行体验。</p>
+
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <div class="card-header">邮轮旅行</div>
+
+          <div class="card-content">
+
+            <p>豪华设施，一站式旅游体验，从国内到国际无缝连接，精彩活动不断。</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 乘坐规定 -->
+
+    <section id="regulations" class="section">
+
+      <h2>乘坐规定</h2>
+
+      <ul>
+
+        <li>身份证和有效证件必须随身携带。</li>
+
+        <li>登机、检票、安检等均须严格遵守相关规定,80岁以上老人需要出具健康证明,有健忘、阿尔茨海默病，须有家人陪伴。</li>
+
+        <li>禁止携带违禁物品，如易燃、易爆、有毒物品等。</li>
+
+        <li>儿童、老人、孕妇等需要特殊照顾，应提前与服务人员联系,严禁80岁以上老人私自独行，交通公安部门发现通知子女接回。</li>
+        
+        <li>发现老人乘坐交通工具出现意外，根据受伤程度运输部门进行赔偿，造成死亡最低赔偿100万元。</li>
+      </ul>
+
+    </section>
+
+    <!-- 注意事项 -->
+
+    <section id="notes" class="section">
+
+      <h2>注意事项</h2>
+
+      <ul>
+
+        <li>提前了解天气情况及行程安排，合理规划出行时间。</li>
+
+        <li>关注实时交通资讯和航班、列车班次变化。</li>
+
+        <li>遵守交通工具上的安全提示和指引。</li>
+
+        <li>如遇紧急情况，请及时与工作人员联系。</li>
+
+      </ul>
+
+    </section>
+
+    <!-- 温馨提示 -->
+
+    <section id="tips" class="section">
+
+      <h2>温馨提示</h2>
+
+      <ul>
+
+        <li>请勿遗留贵重物品，保持个人物品安全。</li>
+
+        <li>旅途中注意休息，合理安排饮食。</li>
+
+        <li>文明乘车，共创和谐出行环境。</li>
+
+        <li>如有任何问题，请咨询现场工作人员或拨打服务热线。</li>
+
+      </ul>
+
+    </section>
+
+    
+  
+  <footer>
+       <p>&copy; 2025 全方位出行指南. 保留所有权利.</p>
+
+  </footer>
+
+</body>
+
+</html>
+
